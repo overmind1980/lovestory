@@ -99,6 +99,7 @@
                         ]]
                     ]]
                 ],
+                // 花
                 bloom: {
                     num: 700,
                     width: 1080,
@@ -206,7 +207,7 @@
                     $await(Jscex.Async.sleep(1000));
                 }
             }));
-
+            // 异步运行
             var runAsync = eval(Jscex.compile("async", function () {
                 $await(seedAnimate());
                 $await(growAnimate());
