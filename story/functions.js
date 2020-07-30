@@ -1,7 +1,3 @@
-/*
- * http://tianji.me/loveme
- */
-
 // variables
 var $win = $(window);
 var clientWidth = $win.width();
